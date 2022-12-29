@@ -74,6 +74,7 @@
         await res
           .text()
           .then((rawRequest) => {
+            alert(rawRequest);
             if (!rawRequest) {
               return;
             }
